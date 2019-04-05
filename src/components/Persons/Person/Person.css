@@ -1,0 +1,14 @@
+.Person {
+    padding: 20px 40px;
+    border: 2px dashed #eee;
+    max-width: 300px;
+    width: 100%;
+    margin: 16px auto;
+    text-align: center;
+}
+
+@media (max-width: 1000px) {
+    .Person {
+        width: 90%
+    }
+}
